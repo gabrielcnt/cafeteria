@@ -8,6 +8,8 @@
     box-sizing: border-box;
     text-decoration: none;
     text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    color: white;
     /* transition: 0.2s linear; */
 }
 :root {
@@ -16,4 +18,148 @@
     --bg: #010103;
     --border: 0.1rem solid rgba(255,255,255,0.3);
     font-size: 20px;
+}
+body {
+    background-color: var(--bg);
+}
+
+section {
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    border-bottom: var(--border);
+    width: 100%;
+    background-color: var(--bg);
+}
+
+header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    
+}
+
+header img {
+    height: 100px;
+}
+
+.navbar a {
+    margin: 0 1rem;    
+    padding: 10px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+    border-bottom: 0.1rem solid var(--main-color);
+    padding-bottom: 0.5rem;
+    transition: 0.4s;
+}
+
+/* _______________________________ SEÇÂO HERO _______________________________ */
+
+.btn {
+    background-color: var(--main-color);
+    color: white;
+    padding: 1rem 3rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+
+}
+
+.btn:hover {
+    letter-spacing: 0.2rem;
+    transition: 0.4s;
+}
+
+.home-container {
+    background-image: url("../imagens/img4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.home-container section {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    max-width: 30rem;
+    margin-top: 50px;
+    
+}
+
+.content h3 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.content p {
+    color: #fff;
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+
+/* _______________________________ SOBRE NÒS _______________________________ */
+
+.title {
+    font-size: 3.5rem;
+    text-align: center;
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+.title span {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.about .row {
+    display: flex;
+    align-items: center;
+    background-color: var(--black);
+    gap: 1.5rem;
+}
+
+.about .row .content {
+    padding: 2rem;
+}
+
+.about .row .content h3 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.about .row .content p {
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 1rem 0;
+    line-height: 2rem;
+}
+
+/* _______________________________ NOSSO MENU _______________________________ */
+
+.menu .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+    
+}
+
+.menu .box-container .box {
+    text-align: center;
+    width: 300px;
 }

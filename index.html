@@ -4,19 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Cafeteria</title>
 </head>
 <body>
     <header>
-        <img src="" alt="">
-        <nav>
-            <a href="#">Home</a>
-            <a href="#about">Sobre</a>
-            <a href="#menu">Menu</a>
-            <a href="#review">Avaliações</a>
-            <a href="#address">Endereço</a>
+        <section>
+            <img src="imagens/logo.png" alt="imagem da logo">
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">Sobre</a>
+                <a href="#menu">Menu</a>
+                <a href="#review">Avaliações</a>
+                <a href="#address">Endereço</a>
             
-        </nav>
+            </nav>
+        </section>
     </header>
+    <main>
+        <div class="home-container">
+            <section id="home">
+                <div class="content">
+                    <h3>Conheça o melhor café da região</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis illum architecto quis exercitationem? Neque reiciendis dignissimos eaque voluptate commodi, enim illo excepturi. Dolorem voluptatem tempora dolor, dolores eveniet deserunt nesciunt.</p>
+                    <a class="btn" href="#">fale conosco agora</a>
+                </div>
+            </section>
+        </div>
+        <section class="about" id="about">
+            <h2 class="title">sobre <span>nós</span></h2>
+            <div class="row">
+                <div class="container-image">
+                    <img src="imagens/img6-250.jpg" alt="café em uma bandeja ao lado de um copo com agua">
+                </div>
+                <div class="content">
+                    <h3>o que faz nosso café especial</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima natus deleniti, laborum, quae, omnis eos aut repellat eius dolores quam dolorem esse quia maiores dolore. Temporibus provident ea saepe asperiores!</p>
+                    <a class="btn" href="#">Saiba Mais</a>
+                </div>
+            </div>
+        </section>
+        <section class="menu" id="menu"> 
+            <h2 class="title">Nosso <span>Menu</span></h2>
+            <div class="box-container">
+                <div class="box">
+                    <img src="imagens/img8.png" alt="chicara de cappuccino">
+                    <h3>Cappuccino</h3>
+                    <div class="price">
+                        R$9,50 <span>R$12,00</span>
+                        <a class="btn" href="#">Adicione ao Carrinho</a>
+                    </div>
+
+                <div class="box">
+                    <img src="imagens/img7.png" alt="copo de latte">
+                    <h3>Latte</h3>
+                    <div class="price">
+                        R$10,90<span>R$14,00</span>
+                        <a class="btn" href="#">Adicione ao Carrinho</a>
+                    </div>
+
+                <div class="box">
+                    <img src="imagens/img9.png" alt="croiassant">
+                    <h3>Croissant de Presunto e Queijo</h3>
+                    <div class="price">
+                        R$6,50 <span>R$8,00</span>
+                        <a class="btn" href="#">Adicione ao Carrinho</a>
+                    </div>
+
+                <div class="box">
+                    <img src="imagens/img10.png" alt="Torta de Limão">
+                    <h3>Torta de Limão</h3>
+                    <div class="price">
+                        R$8,00 <span>R$10,00</span>
+                        <a class="btn" href="#">Adicione ao Carrinho</a>
+                    </div>
+
+                <div class="box">
+                    <img src="imagens/img11.png" alt="Sanduiche de Frango">
+                    <h3>Sanduíche de Frango</h3>
+                    <div class="price">
+                        R$15,00 <span>R$18,99</span>
+                        <a class="btn" href="#">Adicione ao Carrinho</a>
+                    </div>
+
+                <div class="box">
+                    <img src="imagens/img12.png" alt="Chá de Frutas Vermelhas">
+                    <h3>Chá Gelado de Frutas Vermelhas</h3>
+                    <div class="price">
+                        R$5,50 <span>R$7,00</span>
+                        <a class="btn" href="#">Adicione ao Carrinho</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
