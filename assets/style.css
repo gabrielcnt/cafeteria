@@ -10,7 +10,7 @@
     text-transform: capitalize;
     font-family: "Poppins", sans-serif;
     color: white;
-    /* transition: 0.2s linear; */
+     /*transition: 0.2s linear; */
 }
 :root {
     --main-color: #d3ad7f;
@@ -19,6 +19,11 @@
     --border: 0.1rem solid rgba(255,255,255,0.3);
     font-size: 20px;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--bg);
 }
@@ -42,13 +47,12 @@ header section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding: 10px;
     
 }
 
 header img {
-    height: 100px;
+    height: 80px;
 }
 
 .navbar a {
@@ -117,6 +121,7 @@ header img {
 /* _______________________________ SOBRE NÒS _______________________________ */
 
 .title {
+    margin-top: 35px;
     font-size: 3.5rem;
     text-align: center;
     color: var(--main-color);
@@ -152,14 +157,108 @@ header img {
 
 /* _______________________________ NOSSO MENU _______________________________ */
 
-.menu .box-container {
+.box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(0.9rem, 10rem));
+    gap: 5rem;
+    margin: 100px;
     
 }
 
 .menu .box-container .box {
     text-align: center;
-    width: 300px;
+    border-bottom: var(--border);
+    width: 295px;
+    margin: 0 auto;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.menu .box-container .box img {
+    height: 150px;
+}
+
+.menu .box-container .box h3 {
+    color: #fff;
+    font-size: 20px;
+    padding: 1rem 0;
+}
+
+.menu .box-container .box .price {
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.2rem;
+}
+
+.menu .box-container .box .price span {
+    font-size: 0.9rem;
+    text-decoration: line-through;
+    font-weight: 200;
+}
+
+.menu .box-container .box:hover {
+    background-color: #fff;
+    transition: 0.4s;
+    color: var(--black);
+}
+
+.menu .box-container .box:hover * {
+    color: var(--black);
+    transition: 0.4s;
+}
+
+/* _______________________________ REVIEW _______________________________ */
+
+.review .box-container .box {
+   border: var(--border);
+   text-align: center;
+   padding: 20px;
+   width: 300px;
+}
+
+.review .box-container .box p {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    padding: 1rem 0;
+    font-weight: 300;
+    color: #fff;
+}
+
+.review .box-container .box h3 {
+    color: #fff;
+}
+
+.review .box-container .box .foto {
+    height: 100px;
+}
+
+.review .box-container .box .aspas {
+    height: 30px;
+}
+
+/* _______________________________ ADDRESS _______________________________ */
+
+.address {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* _______________________________ FOOTER _______________________________ */
+
+footer {
+   text-align: center;
+}
+footer .share {
+    padding: 0.4rem 0;
+}
+footer .share img {
+    margin: 0.3rem;
+    cursor: pointer;
+    padding: 0.3rem;
+    border-radius: 50%;
+}
+
+footer .share img:hover {
+    background-color: var(--main-color);
 }
