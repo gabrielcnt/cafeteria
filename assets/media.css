@@ -73,4 +73,45 @@
         text-align: left;
         line-height: 25px;
     }
+
+    /* _______________________________ NOSSO MENU _______________________________ */
+
+    .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(5rem));
+        gap: 1rem;
+        margin: 3px;
+        
+    }
+
+    .menu .box-container .box {
+        text-align: center;
+        border-bottom: var(--border);
+        width: 150px;
+        margin: 0 auto;
+        padding: 0px;
+        cursor: pointer;
+    }
+
+    .menu .box-container .box img {
+        height: 100px;
+    }
+
+    .menu .box-container .box h3 {
+        color: #fff;
+        font-size: 0.9rem;
+        padding: 0.2rem 0;
+    }
+
+    .menu .box-container .box .price {
+        color: white;
+        font-size: 0.9rem;
+        padding: 0.2rem;
+    }
+
+    .menu .box-container .box .price span {
+        font-size: 0.6rem;
+        text-decoration: line-through;
+        font-weight: 200;
+    }
 }
