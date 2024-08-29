@@ -78,23 +78,35 @@
 
     .box-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(5rem));
+        grid-template-rows: repeat(6, minmax(100px, 1fr));
+        grid-auto-flow: column;
+        overflow-x: auto;
+        width: 100%;
         gap: 1rem;
         margin: 3px;
         
     }
 
     .menu .box-container .box {
+        display: flex;
         text-align: center;
         border-bottom: var(--border);
-        width: 150px;
+            
         margin: 0 auto;
         padding: 0px;
         cursor: pointer;
+        box-sizing: border-box;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
     }
 
     .menu .box-container .box img {
         height: 100px;
+        padding: 10px;
     }
 
     .menu .box-container .box h3 {
