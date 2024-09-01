@@ -80,8 +80,6 @@
         display: grid;
         grid-template-columns: none;
         grid-template-rows: repeat(6, minmax(100px, 1fr));
-        grid-auto-flow: column;
-        overflow-x: auto;
         width: 100%;
         gap: 1rem;
         margin: 3px;

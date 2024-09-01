@@ -157,11 +157,45 @@ header img {
 
 /* _______________________________ NOSSO MENU _______________________________ */
 
-.box-container {
+.categorias {
+    position: sticky;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    white-space: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.item {
+    display: inline-block;
+    padding: 0px 5px;
+    margin: 5px 0px;
+}
+
+.click {
+    padding: 0 15px;
+}
+
+.item .click:hover {
+    
+    background-color: #fff;
+    transition: 0.4s;
+    color: var(--black);
+}
+
+.conjunto {
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(0.9rem, 10rem));
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 5rem;
-    margin: 100px;
+}
+
+.box-container {
+    height: 700px;
+    text-align: center;
+    display: block;
+    overflow-y: auto;
     
 }
 
@@ -182,6 +216,11 @@ header img {
     color: #fff;
     font-size: 20px;
     padding: 1rem 0;
+}
+
+.menu .box-container h4 {
+    font-size: 40px;
+    padding: 50px;
 }
 
 .menu .box-container .box .price {
