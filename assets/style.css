@@ -82,6 +82,13 @@ header img {
 
 /* _______________________________ SEÇÂO HERO _______________________________ */
 
+.slider {
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
 .btn {
     background-color: var(--main-color);
     color: white;
@@ -98,11 +105,11 @@ header img {
     transition: 0.4s;
 }
 
-.home-container {
+/* .home-container {
     background-image: url("../imagens/img4.jpg");
     background-position: center;
     background-size: cover;
-}
+} */
 
 .home-container section {
     display: flex;
