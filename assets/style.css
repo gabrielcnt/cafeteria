@@ -111,31 +111,25 @@ header img {
     background-size: cover;
 } */
 
-.home-container section {
+/* .home-container section {
     display: flex;
     align-items: center;
     min-height: 100vh;
+} */
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
-.slide {
-    max-width: 30rem;
-    margin-top: 50px;
-    
+.home-container section {
+    margin: 0 auto;
+    width: 800px;
+    height: 800px;
+    overflow: hidden;
 }
-
-.slide h3 {
-    color: #fff;
-    font-size: 2rem;
-}
-
-.slide p {
-    color: #fff;
-    font-size: 1rem;
-    text-align: justify;
-    font-weight: 400;
-    line-height: 1.7rem;
-}
-
 /* _______________________________ SOBRE NÒS _______________________________ */
 
 .title {
