@@ -82,54 +82,6 @@ header img {
 
 /* _______________________________ SEÇÂO HERO _______________________________ */
 
-.slider {
-    margin: 0 auto;
-    width: 800px;
-    height: 400px;
-    overflow: hidden;
-}
-
-.btn {
-    background-color: var(--main-color);
-    color: white;
-    padding: 1rem 3rem;
-    font-size: 1.3rem;
-    cursor: pointer;
-    margin-top: 1rem;
-    display: inline-block;
-
-}
-
-.btn:hover {
-    letter-spacing: 0.2rem;
-    transition: 0.4s;
-}
-
-/* .home-container {
-    background-image: url("../imagens/img4.jpg");
-    background-position: center;
-    background-size: cover;
-} */
-
-/* .home-container section {
-    display: flex;
-    align-items: center;
-    min-height: 100vh;
-} */
-
-.home-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.home-container section {
-    margin: 0 auto;
-    width: 800px;
-    height: 800px;
-    overflow: hidden;
-}
 /* _______________________________ SOBRE NÒS _______________________________ */
 
 .title {
