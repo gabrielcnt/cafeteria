@@ -203,6 +203,15 @@ header img {
     margin-right: 50px;
 }
 
+.dias {
+    display: block;
+    justify-content: space-between;
+}
+
+.dias div {
+    border-bottom: 2px solid var(--border);
+}
+
 /* _______________________________ SOBRE NÒS _______________________________ */
 
 .title {
