@@ -120,7 +120,7 @@ header img {
 .nav-manual, .nav-auto {
     position: absolute;
     width: 83%;
-    margin-top: 50%;
+    margin-top: 43%;
     display: flex;
     justify-content: center;
 }
@@ -166,25 +166,29 @@ header img {
 
 /* _______________________________ HORÁRIOS DE FUNCIONAMENTO _______________________________ */
 
-.funcionamento {
-    display: flex;
-    flex-wrap: wrap;
+.horarios {
+    display: block;
+    text-align: center;
+    flex-wrap: nowrap;
     border: var(--border);
     border-radius: 10px;
     padding: 20px;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: -40px;
     width: 40%;
+}
+.horarios h3 {
+    padding-bottom: 10px;
 }
 
 .aber-fech {
     border: 1px solid green;
-    margin: auto;
-    margin-left: 100px;
     border-radius: 5px;
-    padding: 5px;
-    
-    
+    padding: 5px; 
+}
+
+.horabtn {
+    display: flex;
 }
 
 .hfun {
@@ -194,6 +198,7 @@ header img {
 }
 
 .horario-btn {
+    display: flex;
     background-color: #fff;
     border: solid;
     border-radius: 50%;
@@ -203,13 +208,51 @@ header img {
     margin-right: 50px;
 }
 
-.dias {
-    display: inline;
-    justify-content: space-between;
+
+
+.traço1 {
+    margin: auto;
+    background-color: black;
+    padding-top: 15px;
+    width: 5px;
+    margin-top: 5px;
+    margin-left: 11px;
+    height: 15px;
+    border-radius: 20px;
+    transform: rotate(45deg);
 }
 
-.dias div {
-    border-bottom: 2px solid var(--border);
+.traço2 {
+    margin: auto;
+    background-color: black;
+    padding-top: 15px;
+    width: 5px;
+    margin-top: 5px;
+    margin-right: 11px;
+    height: 15px;
+    border-radius: 20px;
+    transform: rotate(-45deg);
+}
+
+.dias {
+    display: block;
+}
+
+.dia {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: var(--border);
+    padding: 15px 5px;
+}
+
+.horario-btn:active {
+    animation: rotacionar 0.5s forwards;
+}
+
+@keyframes rotacionar {
+    to {
+        transform: rotate(180deg);
+    }
 }
 
 /* _______________________________ SOBRE NÒS _______________________________ */
