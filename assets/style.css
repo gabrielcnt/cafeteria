@@ -204,7 +204,7 @@ header img {
 }
 
 .dias {
-    display: block;
+    display: inline;
     justify-content: space-between;
 }
 
