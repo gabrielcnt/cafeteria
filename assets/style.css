@@ -177,14 +177,12 @@ header img {
     margin-top: 50px;
     width: 40%;
 }
-.horarios h3 {
-    padding-bottom: 10px;
-}
 
 .aber-fech {
-    border: 1px solid green;
     border-radius: 5px;
-    padding: 5px; 
+    padding: 5px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .horabtn {
@@ -235,6 +233,10 @@ header img {
 }
 
 .dias {
+    display: block;
+}
+
+.off {
     display: block;
 }
 
