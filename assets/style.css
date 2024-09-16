@@ -86,7 +86,7 @@ header img {
     background-color: black;
     margin-top: 101px;
     width: 83%;
-    height: 700px;
+    height: 500px;
     overflow: hidden;
     margin: auto;
 
@@ -120,7 +120,7 @@ header img {
 .nav-manual, .nav-auto {
     position: absolute;
     width: 83%;
-    margin-top: 43%;
+    margin-top: 45%;
     display: flex;
     justify-content: center;
 }
@@ -174,7 +174,7 @@ header img {
     border-radius: 10px;
     padding: 20px;
     margin: 0 auto;
-    margin-top: -40px;
+    margin-top: 50px;
     width: 40%;
 }
 .horarios h3 {
