@@ -120,7 +120,7 @@ header img {
 .nav-manual, .nav-auto {
     position: absolute;
     width: 83%;
-    margin-top: 45%;
+    margin-top: 36%;
     display: flex;
     justify-content: center;
 }
@@ -170,12 +170,11 @@ header img {
     display: block;
     text-align: center;
     flex-wrap: nowrap;
-    border: var(--border);
     border-radius: 10px;
     padding: 20px;
     margin: 0 auto;
-    margin-top: 50px;
-    width: 40%;
+    margin-top: 30px;
+    width: 30%;
 }
 
 .aber-fech {
@@ -185,58 +184,14 @@ header img {
     margin: 0 auto;
 }
 
-.horabtn {
-    display: flex;
-}
-
 .hfun {
     text-align: center;
     margin: auto;
-    margin-top: 40px;
-}
-
-.horario-btn {
-    display: flex;
-    background-color: #fff;
-    border: solid;
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    margin-top: 35px;
-    margin-right: 50px;
-}
-
-
-
-.traço1 {
-    margin: auto;
-    background-color: black;
-    padding-top: 15px;
-    width: 5px;
-    margin-top: 5px;
-    margin-left: 11px;
-    height: 15px;
-    border-radius: 20px;
-    transform: rotate(45deg);
-}
-
-.traço2 {
-    margin: auto;
-    background-color: black;
-    padding-top: 15px;
-    width: 5px;
-    margin-top: 5px;
-    margin-right: 11px;
-    height: 15px;
-    border-radius: 20px;
-    transform: rotate(-45deg);
+    margin-top: 10px;
+    font-size: 20px;
 }
 
 .dias {
-    display: block;
-}
-
-.off {
     display: block;
 }
 
@@ -244,17 +199,8 @@ header img {
     display: flex;
     justify-content: space-between;
     border-bottom: var(--border);
-    padding: 15px 5px;
-}
-
-.horario-btn:active {
-    animation: rotacionar 0.5s forwards;
-}
-
-@keyframes rotacionar {
-    to {
-        transform: rotate(180deg);
-    }
+    padding: 10px 5px;
+    font-size: 15px;
 }
 
 /* _______________________________ SOBRE NÒS _______________________________ */
@@ -381,10 +327,11 @@ header img {
    border: var(--border);
    text-align: center;
    padding: 20px;
-   width: 300px;
+   width: 100%;
+   height: 550px;
 }
 
-.review .box-container .box p {
+.review .review-container .box p {
     font-size: 0.8rem;
     line-height: 1.5rem;
     padding: 1rem 0;
@@ -392,15 +339,15 @@ header img {
     color: #fff;
 }
 
-.review .box-container .box h3 {
+.review .review-container .box h3 {
     color: #fff;
 }
 
-.review .box-container .box .foto {
-    height: 60px;
+.review .review-container .box .foto {
+    height: 150px;
 }
 
-.review .box-container .box .aspas {
+.review .review-container .box .aspas {
     height: 30px;
 }
 
