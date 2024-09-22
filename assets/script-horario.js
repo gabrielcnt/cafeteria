@@ -11,13 +11,13 @@ function verificarStatus() {
       3: { inicio: 8, fim: 20 }, // Quarta
       4: { inicio: 8, fim: 20 }, // Quinta
       5: { inicio: 8, fim: 20 }, // Sexta
-      6: { inicio: 8, fim: 13 },  // Sábado
+      6: { inicio: 8, fim: 14 },  // Sábado
       0: { inicio: 0, fim: 0 }   // Domingo (Fechado)
     };
   
     // Verifica se está dentro do horário de funcionamento
     const horarioHoje = horarios[diaSemana];
-    const aberto = horas >= horarioHoje.inicio && (horas < horarioHoje.fim || (diaSemana === 6 && horas < 24));
+    const aberto = horas >= horarioHoje.inicio && horas < horarioHoje.fim;
   
     // Atualiza o status
     if (aberto) {

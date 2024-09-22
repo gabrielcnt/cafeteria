@@ -86,7 +86,7 @@ header img {
     background-color: black;
     margin-top: 101px;
     width: 83%;
-    height: 500px;
+    height: 600px;
     overflow: hidden;
     margin: auto;
 
@@ -106,21 +106,70 @@ header img {
 }
 
 .slide-box {
-    width: 25%;
     height: 100%;
     position: relative;
     text-align: center;
-}
-
-.slide-box {
     width: 100%;
     transition: 1s;
+}
+
+.sli1 {
+    display: block;
+    height: 600px;
+    width: 1200px;
+    background-image: url('../imagens/cafeteria.jpg');
+}
+
+.sli1 h1 {
+    text-align: left;
+    color: #fff;
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-top: 150px;
+    width: 500px;
+    margin-left: 20px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.377);
+}
+
+.sli1 span {
+    color: var(--main-color);
+}
+.botão {
+    display: flex;
+    padding-left: 10px;
+    text-align: center;
+    
+    cursor: pointer;
+    width: 250px;
+    height: 60px;
+    font-size: 22px;
+    border-radius: 30px;
+    background-color: var(--main-color);
+    margin: auto;
+    margin-top: 20px;
+}
+
+.botão a {
+    padding-top: 10px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.botão:hover {
+    box-shadow: 0px 0px 20px 5px var(--main-color);
+    transition: 0.5s;
+}
+
+.botão:active {
+    transform: scale(1.5);
 }
 
 .nav-manual, .nav-auto {
     position: absolute;
     width: 83%;
-    margin-top: 36%;
+    margin-top: 42.5%;
     display: flex;
     justify-content: center;
 }
@@ -270,8 +319,8 @@ header img {
 .menu .box-container .box {
     text-align: center;
     border-bottom: var(--border);
-    width: 295px;
-    padding: 10px;
+    width: 285px;
+    padding: 5px;
     cursor: pointer;
 }
 
@@ -286,8 +335,8 @@ header img {
 }
 
 .menu .box-container h4 {
-    font-size: 40px;
-    padding: 30px 0px ;
+    font-size: 50px;
+    padding: 40px 0px ;
     
 }
 
