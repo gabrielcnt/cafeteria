@@ -113,11 +113,56 @@ header img {
     transition: 1s;
 }
 
+/* _______________________________ SLIDES _______________________________ */
+
 .sli1 {
     display: block;
     height: 600px;
     width: 1200px;
     background-image: url('../imagens/cafeteria.jpg');
+}
+
+.sli1 span, .sli2 span, .sli3 span, .sli4 span {
+    color: var(--main-color);
+}
+
+.sli2 {
+    display: block;
+    height: 600px;
+    width: 1200px;
+    background-image: url('../imagens/chicara-grãos.jpg')
+}
+
+.sli3 {
+    display: block;
+    height: 600px;
+    width: 1200px;
+    background-image: url('../imagens/cafédeskslide02.jpg')
+}
+
+.sli4 {
+    display: block;
+    height: 600px;
+    width: 1200px;
+    background-image: url('../imagens/bolo-sorvete.jpg')
+}
+
+.texto {
+    text-align: left;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 150px;
+    width: 500px;
+    margin-left: 20px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+
+.texto h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+
 }
 
 .sli1 h1 {
@@ -130,12 +175,9 @@ header img {
     margin-left: 20px;
     height: 500px;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.377);
+    background-color: rgba(0, 0, 0, 0.568);
 }
 
-.sli1 span {
-    color: var(--main-color);
-}
 .botão {
     display: flex;
     padding-left: 10px;
