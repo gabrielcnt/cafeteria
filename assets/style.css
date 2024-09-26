@@ -119,7 +119,7 @@ header img {
     display: block;
     height: 600px;
     width: 1200px;
-    background-image: url('../imagens/cafeteria.jpg');
+    background-image: url('../imagens/slides/cafeteria.jpg');
 }
 
 .sli1 span, .sli2 span, .sli3 span, .sli4 span {
@@ -130,21 +130,21 @@ header img {
     display: block;
     height: 600px;
     width: 1200px;
-    background-image: url('../imagens/chicara-grãos.jpg')
+    background-image: url('../imagens/slides/chicara-grãos.jpg')
 }
 
 .sli3 {
     display: block;
     height: 600px;
     width: 1200px;
-    background-image: url('../imagens/cafédeskslide02.jpg')
+    background-image: url('../imagens/slides/cafédeskslide02.jpg')
 }
 
 .sli4 {
     display: block;
     height: 600px;
     width: 1200px;
-    background-image: url('../imagens/bolo-sorvete.jpg')
+    background-image: url('../imagens/slides/bolo-sorvete.jpg')
 }
 
 .texto {
