@@ -182,7 +182,6 @@ header img {
     display: flex;
     padding-left: 10px;
     text-align: center;
-    
     cursor: pointer;
     width: 250px;
     height: 60px;
@@ -230,8 +229,6 @@ header img {
     background-color: var(--main-color);
     transition: 0.5s;
 }
-
-
 
 #radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3, #radio4:checked ~ .nav-auto .auto-btn4 {
     
