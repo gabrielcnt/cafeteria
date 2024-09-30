@@ -1,12 +1,88 @@
 @media  screen and (min-width: 320px ) and (max-width: 500px) {
-    header {
+    
+    :root {
+        --main-color: #d3ad7f;
+        --black: #13131a;
+        --bg: #010103;
+        --border: 0.1rem solid rgba(255,255,255,0.3);
+        font-size: 20px;
+    }
+
+    header section {
+        display: block;
+        padding: 10px;
+        min-height: 100px;
+        
+    }
+
+    header img {
+        height: 55px;
+    }
+
+    header section .navbar {
+        display: block;
+        width: 50vw;
+        margin: 0 auto;
+        padding: 0 5px;
+        transition: 1s;
+    }
+
+    .navbar a {
+        margin: 0 1rem;    
+        padding: 10px;
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    .btn-burger {
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 80%;
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        border: 2px solid var(--main-color);
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .linha {
+        display: block;
+        width: 30px;
+        height: 2px;
+        background-color: var(--main-color);
+        margin: 7px auto;
+        border-radius: 10px;
+        position: relative;
+        transform-origin: center;
+        transition: 0.2s;
+    }
+
+    .btn-burger.ativar .linha:nth-child(1) {
+        transform: translateY(9px) rotate(-45deg);
+    }
+    .btn-burger.ativar .linha:nth-child(2) {
+       width: 0;
+    }
+    
+    .btn-burger.ativar .linha:nth-child(3) {
+        transform: translateY(-9px) rotate(45deg);
+    }
+
+    header section .navbar {
         display: none;
     }
 
-    section {
-        padding: 10px;
-        margin: 0;
-        max-width: 100%;
+    header section .navbar.ativar {
+        display: block;
+    }
+
+    .navbar a:hover {
+        color: var(--main-color);
+        border-bottom: 0.1rem solid var(--main-color);
+        padding-bottom: 0.01rem;
+        transition: 0.4s;
     }
 
     .title {
@@ -44,16 +120,27 @@
     .sli1 {
         display: block;
         height: 400px;
-        width: 400px;
+        width: 100vw;
         background-image: url('../imagens/slides/media/cafeteria-media.jpg');
         background-position-x: -60px;
         background-repeat: no-repeat;
     }
     
+    .sli2 {
+        display: block;
+        height: 300px;
+        width: 100vw;
+    }
+    .sli3 {
+        display: block;
+        height: 300px;
+        width: 100vw;
+    }
+    
     .sli4 {
         display: block;
         height: 300px;
-        width: 400px;
+        width: 100vw;
         background-image: url('../imagens/slides/media/bolo-sorvete-media.jpg')
     }
 
@@ -90,7 +177,6 @@
     }
 
     .texto p {
-        display: none;
         font-size: 15px;
         line-height: 16px;
     }
@@ -100,19 +186,21 @@
         padding-left: 10px;
         text-align: center;     
         cursor: pointer;
-        width: 220px;
+        width: 200px;
         height: 60px;
-        font-size: 19px;
+        font-size: 17px;
         border-radius: 30px;
         background-color: var(--main-color);
-        margin: 5px;
+        margin: 5px auto;
+
     }
     
     .nav-manual, .nav-auto {
         position: absolute;
+        top: 61%;
         width: 100%;
-        margin-top: 85%;
         display: flex;
+        margin: auto;
         justify-content: center;
     }
     /* _______________________________ HORÁRIOS DE FUNCIONAMENTO _______________________________ */
