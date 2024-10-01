@@ -312,7 +312,6 @@ header img {
 .about .row {
     display: flex;
     align-items: center;
-    background-color: var(--black);
     gap: 1.5rem;
 }
 

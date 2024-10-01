@@ -42,7 +42,6 @@
         width: 50px;
         height: 50px;
         border-radius: 10px;
-        border: 2px solid var(--main-color);
         background-color: transparent;
         cursor: pointer;
     }
@@ -135,6 +134,7 @@
         display: block;
         height: 300px;
         width: 100vw;
+        
     }
     
     .sli4 {
