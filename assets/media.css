@@ -197,7 +197,7 @@
     
     .nav-manual, .nav-auto {
         position: absolute;
-        top: 61%;
+        top: 410px;
         width: 100%;
         display: flex;
         margin: auto;
@@ -250,6 +250,7 @@
 
     .about .row {
         display: block;
+        background-color: var(--black);
     }
     picture {
         text-align: center;
