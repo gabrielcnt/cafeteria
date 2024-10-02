@@ -214,7 +214,7 @@ header img {
 .nav-manual, .nav-auto {
     position: absolute;
     width: 83%;
-    margin-top: 42.5%;
+    top: 610px;
     display: flex;
     justify-content: center;
 }
