@@ -213,8 +213,11 @@ header img {
 
 .nav-manual, .nav-auto {
     position: absolute;
-    width: 83%;
+    width: 200px;
+    margin: auto;
     top: 610px;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: center;
 }
@@ -377,8 +380,11 @@ header img {
 }
 
 .menu .box-container h4 {
+    color: var(--main-color);
+    border-bottom: 0.1rem solid var(--main-color);
     font-size: 50px;
-    padding: 40px 0px ;
+    padding: 5px 0px ;
+    margin: 50px 0;
     
 }
 

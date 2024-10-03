@@ -8,6 +8,12 @@
         font-size: 20px;
     }
 
+    html {
+        scroll-padding-top: 200px;
+    }
+
+     /* _______________________________ HEADER _______________________________ */
+
     header section {
         display: block;
         padding: 10px;
@@ -21,15 +27,17 @@
 
     header section .navbar {
         display: block;
-        width: 50vw;
+        text-align: center;
         margin: 0 auto;
         padding: 0 5px;
         transition: 1s;
     }
 
     .navbar a {
-        margin: 0 1rem;    
-        padding: 10px;
+        display: inline-block;
+        width: 100px;
+        text-align: center;
+        align-items: center;
         color: white;
         font-size: 1.2rem;
     }
@@ -96,8 +104,6 @@
         text-transform: uppercase;
     }
     
-    /* _______________________________ HEADER _______________________________ */
-   
     .navbar a {
         font-size: 20px;
     }
