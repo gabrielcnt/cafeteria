@@ -256,14 +256,14 @@
 
     .about .row {
         display: block;
-        background-color: var(--black);
+        background-color: aqua;
     }
     picture {
         text-align: center;
     }
     picture img {
         display: inline-block;
-        
+        margin-left: 50px;
     }
 
     .about .row .content h3 {
