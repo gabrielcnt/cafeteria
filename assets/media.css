@@ -256,11 +256,9 @@
 
     .about .row {
         display: block;
-        background-color: aqua;
+        background-color: yellowgreen;
     }
-    picture {
-        text-align: center;
-    }
+
     picture img {
         display: inline-block;
         margin-left: 50px;
