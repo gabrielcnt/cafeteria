@@ -1,0 +1,67 @@
+@media  screen and (min-width: 501px ) and (max-width: 1550px) {
+    
+    :root {
+        --main-color: #d3ad7f;
+        --black: #13131a;
+        --bg: #010103;
+        --border: 0.1rem solid rgba(255,255,255,0.3);
+        font-size: 20px;
+    }
+
+    html {
+        scroll-padding-top: 200px;
+    }
+
+      /* _______________________________ REVIEW _______________________________ */
+
+      .review-container {
+        align-items: center;
+        text-align: center;
+        display: block;
+        
+    }
+
+    .review .review-container .box {
+        border: var(--border);
+        text-align: center;
+        padding: 5px;
+        width: 100%;
+        height: 320px;
+    }
+
+    .review .review-container .box p {
+        font-size: 0.6rem;
+        line-height: 1rem;
+        padding: 0.2rem 0;
+        font-weight: 300;
+        color: #fff;
+    }
+
+    .review .review-container .box h3 {
+        color: #fff;
+        font-size: 15px;
+
+    }
+
+    .review .review-container .box .foto {
+        height: 100px;
+    }
+
+    .review .review-container .box .aspas {
+        height: 15px;
+    }
+
+     /* _______________________________ ADDRESS _______________________________ */
+
+     .address {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .map iframe {
+        width: 500px;
+        height: 500px;
+    }
+}
+}

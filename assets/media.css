@@ -1,4 +1,4 @@
-@media  screen and (min-width: 320px ) and (max-width: 500px) {
+@media  screen and (min-width: 320px ) and (max-width: 700px) {
     
     :root {
         --main-color: #d3ad7f;
@@ -122,32 +122,29 @@
 
     /* _______________________________ SLIDES _______________________________ */
 
+
+
     .sli1 {
         display: block;
         height: 400px;
-        width: 100vw;
-        background-image: url('../imagens/slides/media/cafeteria-media.jpg');
-        background-position-x: -60px;
-        background-repeat: no-repeat;
+    
     }
     
     .sli2 {
         display: block;
         height: 300px;
-        width: 100vw;
+    
     }
     .sli3 {
         display: block;
         height: 300px;
-        width: 100vw;
-        
+       
     }
     
     .sli4 {
         display: block;
         height: 300px;
-        width: 100vw;
-        background-image: url('../imagens/slides/media/bolo-sorvete-media.jpg')
+         
     }
 
     .sli1 h1 {
