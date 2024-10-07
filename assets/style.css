@@ -208,7 +208,7 @@ header img {
 }
 
 .botão:active {
-    transform: scale(1.5);
+    background-color: var(--black);
 }
 
 .nav-manual, .nav-auto {
